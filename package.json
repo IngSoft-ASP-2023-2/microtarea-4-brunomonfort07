@@ -1,0 +1,28 @@
+{
+  "name": "microtarea-4-brunomonfort07",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/LmyA7_0U)\r # microtarea-4-aws-lambda",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IngSoft-ASP-2023-2/microtarea-4-brunomonfort07.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IngSoft-ASP-2023-2/microtarea-4-brunomonfort07/issues"
+  },
+  "homepage": "https://github.com/IngSoft-ASP-2023-2/microtarea-4-brunomonfort07#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1691.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "install": "^0.13.0",
+    "npm": "^10.9.0",
+    "pg": "^8.13.1"
+  }
+}
