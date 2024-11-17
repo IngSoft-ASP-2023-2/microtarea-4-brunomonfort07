@@ -1,0 +1,17 @@
+{
+  "name": "f2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.693.0",
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.1"
+  }
+}

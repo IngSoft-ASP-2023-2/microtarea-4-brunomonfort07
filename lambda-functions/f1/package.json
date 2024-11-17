@@ -17,10 +17,8 @@
   },
   "homepage": "https://github.com/IngSoft-ASP-2023-2/microtarea-4-brunomonfort07#readme",
   "dependencies": {
-    "aws-sdk": "^2.1691.0",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
-    "express": "^4.21.1",
     "install": "^0.13.0",
     "npm": "^10.9.0",
     "pg": "^8.13.1"

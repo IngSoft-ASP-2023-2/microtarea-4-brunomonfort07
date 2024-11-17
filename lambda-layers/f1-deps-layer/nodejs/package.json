@@ -1,5 +1,5 @@
 {
-  "name": "card-validate-layer",
+  "name": "nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,8 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
-    "aws-sdk": "^2.1692.0"
+    "dotenv": "^16.4.5",
+    "pg": "^8.13.1"
   }
 }

@@ -20,7 +20,6 @@ Lenguaje de programación: Javascript
 2. Iniciar el proyecto con el comando `npm init -y`
 3. Crear un archivo index.js.
 3. Instalar las dependencias con el comando `npm install`
-4. Crear un archivo .env con las variables de entorno necesarias para la conexión con AWS SQS
 
 ## Generación de la BD en AWS RDS y la tabla para los eventos
 
@@ -35,11 +34,14 @@ CREATE TABLE eventos (
 
 ## Generación de las funciones lambda en AWS Lambda
 
-## Archivo .ENV
-
-Por seguridad, los links compartidos solo son visibles por usuarios de la universidad (ejemplo@fi365.ort.edu.uy).
-
-Archivo Env: TODO LINK MI SHAREPOINT
+- Crear BD RDS en AWS
+    - Crear tabla en RDS
+- Crear bucket S3 en AWS
+- Crear DynamoDB en AWS
+- Crear funciones Lambda en AWS Lambda. Por cada una:
+    - Agregar el layer creado en cada function. Ver carpeta "lambda-layers"
+    - Agregar el código en el "VSCode" integrado.
+    - Clic en deploy.
 
 # Referencias utilizadas para la realización del proyecto
 
@@ -48,3 +50,6 @@ https://docs.aws.amazon.com/lambda/latest/dg/with-s3.html
 https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
 
 https://docs.aws.amazon.com/lambda/latest/dg/packaging-layers.html
+
+# Evidencias
+Vease la carpeta ./doc
